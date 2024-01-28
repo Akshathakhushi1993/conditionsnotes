@@ -1,0 +1,169 @@
+conditional statements
+----------------------
+--they are used to take some descisions like if the condition met it will return true else false.
+--different types of conditions we have is
+1)simple if
+2)if else
+3)if else if
+4)nested if
+5)switch
+if your driving your car.if there is fuel inside the car we can drive else we cannot drive
+1)simple if
+-----------
+if my condition is true it will show the result else it wont show anything
+
+flowchart
+---------
+synatx
+------
+if(condtions)
+{
+----
+----
+}
+
+program
+-------
+class simpleifdemo{
+public static void main(String[] args)
+{
+System.out.println("start");
+int n=5;
+if(n<=10)
+{
+System.out.println(n+"is lesser than or equal to 10");
+}
+System.out.println("end");
+}
+}
+
+2)if else
+---------
+---------
+if(condition)
+{
+if block is true
+}
+else
+{
+else block is false
+}
+
+programs
+--------
+class ifelsedemo{
+public static void main(String[] args)
+{
+System.out.println("start");
+int a=10;
+int b=20;
+if(a<=b)
+{
+System.out.println(a+"is lesser than or equal to"+ b);
+}
+else{
+
+System.out.println(a+"is greater than "+ b);
+}
+}
+}
+
+program2
+--------
+class ifelsedemo{
+public static void main(String[] args)
+{
+if(true){
+System.out.println("hai");
+}
+else{
+System.out.println("bye");
+}
+System.out.println("...............................");
+if(true){
+System.out.println("hai");
+}
+else{
+System.out.println("bye");
+}
+}
+}
+
+3)if else if
+-------------
+-------------
+checking the multiple conditions
+syntax:
+if(condition)
+{
+}
+else if(conditions)
+{
+}
+else if(conditions)
+{
+}
+else{
+}
+
+program
+-------
+
+class ifelseifdemo{
+public static void main(String[] args)
+{
+int a=5;
+int b=10;
+if(a<b)
+{
+System.out.println(a+"is lesser than"+b);
+}
+else if(a>b)
+{
+System.out.println(a+"is greater than"+ b);
+}
+else
+{
+System.out.println(a+"is equal to"+b);
+}
+}
+}
+program3
+--------
+CHECK A NUMBER IS POSITIVE OR NEGATIVE
+CHECK A NUMBER IS EVEN OR ODD
+
+
+4)NESTED IF
+-----------
+-----------
+one if is present inside another if
+syntax:
+-------
+if(condition)
+{
+outer if
+}
+
+if(condition)
+{
+if(condition)
+{
+inner if
+}
+}
+
+program
+-------
+program2
+--------
+--------
+Marks validation
+
+81-100->Distinction
+35-80->fc(first class)
+0 -24->fail
+
+<0 and >100--invalid output
+
+use notepad++ platform
